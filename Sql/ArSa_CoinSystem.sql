@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD COLUMN `coin` INT(255) DEFAULT "0";

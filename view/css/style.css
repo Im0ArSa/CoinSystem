@@ -1,0 +1,150 @@
+@font-face {
+  font-family: vazir;
+  src: url(../font/Vazir-Bold.ttf);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: vazir;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.no-Active{
+    display: none;
+}
+
+.success{
+    border: solid 1px rgb(64, 255, 47);
+    box-shadow: 0px 0px 10px rgb(21, 199, 4);
+}
+.err{
+    border: solid 1px red;
+    box-shadow: 0px 0px 10px red;
+}
+.def{
+    border: none;
+    box-shadow: 0 0 10px rgb(56, 56, 56);
+}
+img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+.form-container {
+  width: 500px;
+  height: auto;
+  margin: 5% auto;
+  background-color: #ffb142;
+  border-radius: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.form-container input {
+  padding: 10px;
+  margin: 7px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 15px;
+
+}
+
+#name {
+    width: 45%;
+    
+}
+#coin{
+    width: 45%;
+}
+
+#cnum{
+    width: 94%;
+}
+
+#cname{
+    width: 45%;
+}
+
+#phone{
+    width: 45%;
+}
+
+.form-container button {
+  width: 25%;
+  padding: 10px;
+
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 4%;
+}
+
+#btnc{
+    border-radius: 0 30px 30px 0;
+    background-color: #e03434;
+
+
+}
+#btn{
+    border-radius: 30px 0 0 30px;
+    background-color: #34ace0;
+}
+
+#btn:hover {
+  background-color: #0180bb;
+}
+
+#btnc:hover {
+    background-color: #da1111;
+ }
+
+.info {
+  background-color: #f7f1e3;
+  padding: 15px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-radius: 30px;
+  border: solid 1px rgb(78, 78, 78);
+  box-shadow: 0 0 15px rgb(56, 56, 56);
+  text-align: right;
+}
+
+.hint {
+  margin: 4px;
+  font-size: 14.1px;
+  color: #333333;
+}
+
+.welcom {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.bye {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+
+.tab{
+  margin-top: 20px;
+  font-size: 12px;
+  text-shadow: 3px 4px 8px #252525;
+  color: #3d3d3d;
+}
